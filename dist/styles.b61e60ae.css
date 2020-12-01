@@ -509,7 +509,7 @@ section:not(.hero) {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 450px) {
   .introDescription p {
     font-size: 2rem;
   }
