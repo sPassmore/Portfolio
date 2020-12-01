@@ -1,5 +1,3 @@
-const { format } = require('prettier');
-
 // Body elements
 const bodyElement = document.querySelector('body');
 const menuToggle = document.querySelector('.hamburgerMenu');
