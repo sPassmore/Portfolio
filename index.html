@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body> 
+    <div class="hamburgerMenu">
+        <i class="fas fa-bars open"></i>
+        <i class="fas fa-times closed"></i>
+    </div>
+
+<nav class="nav">
+    <div class="intro">
+        <a href="index.html">Sam Passmore</a>
+    </div>
+    <ul class="navList">
+        <li class="navItem">
+            <a href="#home" class="navLink">Home</a>
+        </li>
+        <li class="navItem">
+            <a href="#about" class="navLink">About</a>
+        </li>
+        <li class="navItem">
+            <a href="#contact" class="navLink">Contact</a>
+        </li>
+    </ul>
+    <div class="socialWrapper">
+            
+        <div class="socialMedia">
+            <a href="mailto:sam.e.beckworth@gmail.com" class="fas fa-envelope socialLinks"></a>
+            <a href="https://github.com/sPassmore" class="fab fa-github socialLinks"></a>
+            <a href="https://www.linkedin.com/in/sam-passmore-567533106/" class="fab fa-linkedin socialLinks"></a>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2020 All right reserved</p>
+        </div>
+    </div>
+</nav>
+
+<main class="main">
+    <section class="hero" id="home">
+        <h5 class="nameHeading">Sam Passmore</h5>
+        <h4 class="nameSubHeading greeting">Hello</h4>
+     
+    </section>
+
+    <!-- About Me -->
+    <section class="aboutMe" id="about">
+        <div class="container">
+            <div class="aboutMeIntro">
+                <div class="introDescription">
+                    <p> <span>Hi, I'm Sam Passmore</span>  I am an aspiring self taught web developer based in 
+                    Melbourne, Australia</p>
+                    <p> I have a passion for computers and have been working with them for most of my life, I've studied 
+                        IT and worked in the support field and am now looking to move into development
+
+                        
+                    </p>
+                    <p>
+                    So far my studies have been focused on the following technologies 
+                    </p>
+                </div>
+              
+            </div>
+            <div class="imageHolder">
+                <img class="gridImage" src="./images/html.png" alt="">
+                <img class="gridImage" src="./images/css.png" alt="">
+                <img class="gridImage" src="./images/js.png" alt="">
+            </div>
+
+            
+            
+    </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="contactMe" id="contact">
+        <div class="container">
+            <div class="headingGroup">
+                <h5 class="sectionHeadBig">Contact Me</h5>
+            </div>
+            <p>Feel free to contact me below, or via any of the links on the sidebar</p>
+        
+            <div id="error" class="error"></div>
+            <form id="form" class="contactForm" action="/" method="GET">
+
+            <div class="formControl">
+                <input id="name" placeholder="Full Name" type="text" class="input"> 
+                <i class="fas fa-check-circle"></i> 
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="formControl">
+                <input id="email" placeholder="Email Address" type="email" class="input"> 
+                <i class="fas fa-check-circle"></i> 
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="formControl">
+                <input id="subject" placeholder="Subject" type="text" class="input"> 
+                <i class="fas fa-check-circle"></i>
+                 <i class="fas fa-exclamation-circle"></i>
+                 <small>Error Message</small>
+                
+            </div>
+
+            <textarea rows="7" placeholder="Message"></textarea>
+                <button class="btn" type="submit" value="send">Send Message</button>
+           
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<script src="./scripts/scripts.js"></script>
+</body>
+</html>
